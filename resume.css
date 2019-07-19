@@ -1,0 +1,107 @@
+body,
+html{
+  padding: 0;
+  margin:0;
+  font: 14px/1.4 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+div {
+  box-sizing: border-box;
+}
+header{
+  background-color: rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+/* Container */
+[class|="container"]{
+  width: 100%;
+  margin:0 auto;
+  padding: 0 1rem;
+}
+.container-page{
+
+}
+.container-content{
+
+}
+@media (min-width: 600px){
+  .container-page {
+    max-width: 600px;
+  }
+}
+@media (min-width: 768px){
+  .container-page {
+    max-width: 768px;
+  }
+}
+/* Section Padding */
+.section{
+  padding: 0.5rem 1rem;
+}
+/* Header */
+.contact{
+
+}
+.contact_info{
+
+}
+.contact_info-email{
+  text-decoration: none;
+}
+.contact_info a,
+.contact_info p{
+  display: inline-block;
+  min-width: 75px;
+}
+/* Summary Section */
+#summary{}
+.summary-text{
+
+}
+/* Skills Section */
+.skills{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+}
+@media (min-width: 768px){
+  .skills {
+    grid-gap: 1rem 2rem;
+    padding-left:4rem;
+    padding-right: 4rem;
+  }
+}
+.skills ul{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.skills ul li{
+  padding: 0 1rem;
+  margin: 0.1rem;
+  background-color: rgba(40, 30, 255, 0.7);
+  color: #ffffff;
+  border-radius: 5px;
+}
+.skills ul li.skills-highlight{
+  background-color: rgba(40, 30, 255, 0.9);
+}
+.skills ul.skills-soft li{
+  background-color: rgba(200, 30, 40, 0.7);
+}
+/* Experience */
+.job{
+}
